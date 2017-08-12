@@ -5,6 +5,7 @@ WARNING - MUST UPDATE ONE FILE src/spouts/tweets.py BEFORE CODE CAN RUN, DETAILS
 
 ## Step 1
 Need to start postgres. And create a database and dataframe - inputs:
+* This assumes you have postgres on AWS machine, if not please follow lab2 of w205
 
 __START_INPUTS_IN_AWS_TERMINAL_BELOW__:
 
