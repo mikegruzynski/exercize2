@@ -25,8 +25,6 @@ Grab github repository and move it into AWS.
 
 __START_INPUTS_IN_AWS_TERMINAL_BELOW__:
 ```
-mkdir ex2_gruzynski
-cd ex2_gruzynski/
 git clone https://github.com/mikegruzynski/exercize2.git
 cd exercize2/
 chmod +x *.py
