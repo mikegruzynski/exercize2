@@ -11,5 +11,3 @@ screenshot-finalResultScript.PNG
 screenshot-histogramScript.PNG
 -- first part shows what happens if you put in wrong input: python histogram.py 20 40
 -- second part was putting it in with correct formatting: python histogram.py 20,40
-
-
