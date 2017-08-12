@@ -29,6 +29,24 @@ git clone https://github.com/mikegruzynski/exercize2.git
 cd exercize2/
 chmod +x *.py
 cd extweetwordcount/
+vi src/spouts/tweets.py
+```
+
+after you go into src/spouts/tweets.py via vi, you need to insert your credentials into the dictionary
+Currently it is:
+
+```
+twitter_credentials = {
+    "consumer_key"        :  "<INPUT>",
+    "consumer_secret"     :  "<INPUT>",
+    "access_token"        :  "<INPUT>",
+    "access_token_secret" :  "<INPUT>",
+}
+```
+
+So replace the <INPUT> with credential information (DO NOT REMOVE ANY "  (quotes) )
+
+```
 sparse run
 ```
 __END_INPUTS_IN_AWS_TERMINAL__
