@@ -1,6 +1,8 @@
 # W205 exercize 2 readme
 # By Mike Gruzynski
 
+WARNING - MUST UPDATE ONE FILE src/spouts/tweets.py BEFORE CODE CAN RUN, DETAILS BELOW
+
 ## Step 1
 Need to start postgres. And create a database and dataframe - inputs:
 
