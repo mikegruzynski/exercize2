@@ -32,4 +32,5 @@ cd extweetwordcount/
 sparse run
 ```
 __END_INPUTS_IN_AWS_TERMINAL__
+
 when satisfied with amount of data stremed from the twitter application hit ctrl + c to end the stream of data
