@@ -19,4 +19,17 @@ __END_INPUTS_IN_AWS_TERMINAL__
 Now hit on keyboard : Ctrl - D (twice) to exit from postgres
 
 ## Step 2
+Grab github repository and move it into AWS.
 
+__START_INPUTS_IN_AWS_TERMINAL_BELOW__:
+```
+mkdir ex2_gruzynski
+cd ex2_gruzynski/
+git clone https://github.com/mikegruzynski/exercize2.git
+cd exercize2/
+chmod +x *.py
+cd extweetwordcount/
+sparse run
+```
+__END_INPUTS_IN_AWS_TERMINAL__
+when satisfied with amount of data stremed from the twitter application hit ctrl + c to end the stream of data
