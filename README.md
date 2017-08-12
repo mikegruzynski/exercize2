@@ -44,7 +44,7 @@ twitter_credentials = {
 }
 ```
 
-So replace the <INPUT> with credential information (DO NOT REMOVE ANY "  (quotes) )
+So replace the \<INPUT\> with credential information (DO NOT REMOVE ANY "  (quotes) )
 
 ```
 sparse run
