@@ -1,1 +1,3 @@
-# exercize2
+# exercize2 readme
+
+# Step 1
