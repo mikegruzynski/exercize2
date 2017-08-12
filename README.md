@@ -65,3 +65,29 @@ Set LEIN_ROOT to disable this warning.
 ```
 
 when satisfied with amount of data stremed from the twitter application hit ctrl + c to end the stream of data
+
+# STEP 3
+Get out of the directory back into directory with finalresult.py and histogram.py.
+
+__START_INPUTS_IN_AWS_TERMINAL_BELOW__:
+```
+cd ../
+python finalresult.py
+python finalresult.py mike hi the ed president to
+python histogram.py 20,40
+python histogram.py 5,10
+```
+__END_INPUTS_IN_AWS_TERMINAL__
+
+# IF YOU NEED TO RUN AGAIN:
+
+```
+psql --username=postgres
+\connect tcount;
+DROP TABLE tweetwordcount;
+CREATE TABLE tweetwordcount (word TEXT PRIMARY KEY NOT NULL, count INT NOT NULL);
+```
+
+Then go into the directory extweetwordcount/
+
+and hit sparse run again
