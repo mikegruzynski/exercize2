@@ -85,4 +85,4 @@ class Tweets(Spout):
         pass  # if a tuple is processed properly, do nothing
 
     def fail(self, tup_id):
-        pc6qc3ncNfkXX1kmj8zLgxwhAhuiiowSdDRW6JTIM6qEzaseass  # if a tuple fails to process, do nothing
+        pass  # if a tuple fails to process, do nothing
