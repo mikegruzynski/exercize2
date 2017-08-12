@@ -90,4 +90,4 @@ CREATE TABLE tweetwordcount (word TEXT PRIMARY KEY NOT NULL, count INT NOT NULL)
 
 Then go into the directory extweetwordcount/
 
-and hit sparse run again
+and hit sparse run again in the AWS command line
