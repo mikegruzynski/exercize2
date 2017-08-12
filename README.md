@@ -6,8 +6,8 @@ Need to start postgres. And create a database and dataframe - inputs:
 
 __START_INPUTS_IN_AWS_TERMINAL_BELOW__:
 
-cd /data/
-./start_postgres.sh
+cd /data/ \\
+./start_postgres.sh \\
 psql --username=postgres
 CREATE DATABASE Tcount;
 \connect tcount;
